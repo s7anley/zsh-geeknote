@@ -1,9 +1,14 @@
 #compdef geeknote
-#autoload
-
-# Geeknote autocomplete plugin for Oh-My-Zsh
-# Requires: Geeknote (https://github.com/VitaliyRodnenko/geeknote)
-# Author: s7anley. (https://github.com/s7anley)
+# --------------- ------------------------------------------------------------
+#           Name : _geeknote
+#       Synopsis : zsh completion for geeknote
+#         Author : Ján Koščo <3k.stanley@gmail.com>
+#       HomePage : http://www.geeknote.me
+#        Version : 0.1
+#            Tag : [ shell, zsh, completion, evernote ]
+#      Copyright : © 2014 by Ján Koščo,
+#                  Released under current GPL license.
+# --------------- ------------------------------------------------------------
 
 local -a _1st_arguments
 _1st_arguments=(
