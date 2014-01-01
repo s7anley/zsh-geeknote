@@ -1,0 +1,34 @@
+#compdef geeknote
+#autoload
+
+# Geeknote autocomplete plugin for Oh-My-Zsh
+# Requires: Geeknote (https://github.com/VitaliyRodnenko/geeknote)
+# Author: s7anley. (https://github.com/s7anley)
+
+local -a _1st_arguments
+_1st_arguments=(
+  'login'
+  'logout'
+  'settings'
+  'create'
+  'edit'
+  'find'
+  'show'
+  'remove'
+  'notebook-list'
+  'notebook-create'
+  'notebook-edit'
+  'tag-list'
+  'tag-create'
+  'tag-edit'
+  'gnsync'
+  'user'
+)
+
+_arguments '*:: :->command'
+
+if (( CURRENT == 1 )); then
+  _describe -t commands "geeknote command" _1st_arguments
+  return
+fi
+
