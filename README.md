@@ -11,10 +11,9 @@ Plugins provides:
 ## Installation
 
 ### oh-my-zsh
-This plugin is not bundled in oh-my-zsh yet. The easiest way to install:
+This plugin is already bundled in oh-my-zsh. To enable just configure plugin definition
 
-1. Clone this repository to custom plugins folder
-2. Enabled plugin in your bootstraping file
+    plugins=( ... geeknote ...)
 
 ### Antigen
 Use [Antigen's](https://github.com/zsh-users/antigen) bundle command to install by adding `antigen bundle s7anley/zsh-geeknote` to your `.zshrc` along with your other plugins.
